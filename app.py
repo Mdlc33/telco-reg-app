@@ -5,7 +5,7 @@ import numpy as np
 from sklearn.feature_extraction import DictVectorizer
 
 # Cargar el modelo y el DictVectorizer
-with open('models/churn-model.pck', 'rb') as f:
+with open('churn-model.pck', 'rb') as f:
     dv, model = pickle.load(f)
 
 # Título de la aplicación
